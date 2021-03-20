@@ -1,0 +1,26 @@
+{
+  "name": "aops",
+  "version": "1.0.0",
+  "description": "Pyramid Descent Puzzle",
+  "main": "entryPoint.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxeinhorn/AoPS.git"
+  },
+  "author": "Max Einhorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxeinhorn/AoPS/issues"
+  },
+  "homepage": "https://github.com/maxeinhorn/AoPS#readme"
+}
