@@ -1,4 +1,7 @@
 const inputs = require('./input.js');
+const calculator = require('./calculator.js');
+const output = require('./output.js');
 
-console.log(inputs.target);
-console.log(inputs.matrix);
+var result = calculator.calc(inputs.target, inputs.matrix);
+
+output.writer(result);

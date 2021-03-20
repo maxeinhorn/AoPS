@@ -1,12 +1,7 @@
-// create CSV to matrix converter
-// create prime factorization converter
-// create pyramid logic
-
 // ASSUMPTIONS
   // return the first path found even if there are multiple paths
   // if there is no path, return false
 
-// var result = [];
 
 var primeFactorization = function(number) {
   if (number <= 1) throw new Error("Passed number too small.");
@@ -126,16 +121,18 @@ function main(target, matrix) {
   return pyramidSolver(targetPrimes, matrixPrimes);
 }
 
-const target = 720;
-const matrix = [
-  [2],
-  [4,3],
-  [3,2,6],
-  [2,9,5,2],
-  [10,5,2,15,5],
-];
+// const target = 720;
+// const matrix = [
+//   [2],
+//   [4,3],
+//   [3,2,6],
+//   [2,9,5,2],
+//   [10,5,2,15,5],
+// ];
 
-console.log(main(target, matrix));
+// console.log(main(target, matrix));
+
+module.exports = {calc: main};
 
 
 
